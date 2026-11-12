@@ -1,0 +1,4 @@
+batch_date,orders_file,orders_rows,payments_file,payments_rows,scenario_notes
+2026-10-01,orders_2026-10-01.csv,5000,payments_2026-10-01.csv,4779,Baseline mostly-valid batch
+2026-10-02,orders_2026-10-02.csv,5510,payments_2026-10-02.csv,5235,"Duplicates, missing IDs, invalid master references"
+2026-10-03,orders_2026-10-03.csv,6010,payments_2026-10-03.csv,5702,"Duplicates, NULLs, invalid dates, malformed numeric values, bad statuses, late-arriving rows"
